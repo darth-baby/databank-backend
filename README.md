@@ -5,8 +5,7 @@
 ## Связанный проект
 
 Этот API используется фронтенд-приложением, которое находится здесь: 
-**[link to your frontend repository]**
-(https://github.com/darth-baby/databank-react)
+**[https://github.com/darth-baby/databank-react]**
 
 ## Как запустить
 
