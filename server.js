@@ -73,6 +73,11 @@ app.get('/api/characters/ahsoka', (req, res) => {
   res.json(ahsokaCharacters);
 });
 
+
+app.get('/healthz', (req, res) => {
+  res.status(200).send('Backend is running okay!');
+});
+
 app.listen(PORT, () => {
   console.log(`Сервер запущен на http://localhost:${PORT}`);
 });
