@@ -73,6 +73,16 @@ app.get('/api/characters/ahsoka', (req, res) => {
   res.json(ahsokaCharacters);
 });
 
+const miniCards = [
+  {id: 1, name: 'Grogu', image: "/images/mandalorian/grogu.jpeg"},
+  {id: 1, name: 'Mandalorian', image: "/images/mandalorian/din-djarin.jpeg"}
+]
+
+app.get('/api/databank/miniCards', (req, res) => {
+  res.json(miniCards);
+})
+
+
 
 app.get('/healthz', (req, res) => {
   res.status(200).send('Backend is running okay!');
